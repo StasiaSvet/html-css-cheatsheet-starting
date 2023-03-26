@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    align-content: center;
+    display: block;
+    margin: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+   }
+   
+table {
+    border: 2px solid darkorchid;
+    /* width: 650px; */
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    
+   }
+
+thead {
+    border-left: 1px solid darkorchid;
+   }
+
+tr td {
+    border-top: 1px solid darkorchid;
+    border-left: 1px solid darkorchid;
+    text-align: justify;
+    text
+   }

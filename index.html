@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS cheatsheet</title>
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <section id="boxModel">
+        <h1>The Box Model</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CSS Margin Collapse</td>
+                    <td><p>CSS margin collapse occurs when the top and bottom margins of blocks are combined into a single margin equal to the largest individual block margin.</p>
+                        <p>Margin collapse only occurs with vertical margins, not for horizontal margins.</p>
+                    </td>
+                    <td><img class="imageContainer" src="./src/margin_collapse.png"></td>
+                </tr>
+                <tr>
+                    <td>CSS auto keyword</td>
+                    <td>The value auto can be used with the property margin to horizontally center an element within its container. The margin property will take the width of the element and will split the rest of the space equally between the left and right margins.
+                    </td>
+                    <td><img class="imageContainer" src="./src/auto_keyword.png"></td>
+                </tr>
+                <tr>
+                    <td>Dealing with overflow</td>
+                    <td><p>If content is too large for its container, the CSS overflow property will determine how the browser handles the problem.</p>
+                        <p>By default, it will be set to visible and the content will take up extra space. It can also be set to hidden, or to scroll, which will make the overflowing content accessible via scroll bars within the original container.</p>
+                        </td>
+                        <td><img class="imageContainer" src="./src/overflow.png"></td>
+                </tr>
+                <tr>
+                    <td>Height and Width Maximums/Minimums</td>
+                    <td>The CSS min-width and min-height properties can be used to set a minimum width and minimum height of an element’s box. CSS max-width and max-height properties can be used to set maximum widths and heights for element boxes.</td>
+                    <td><img class="imageContainer" src="./src/max_min.png"></td>
+                </tr>
+                <tr>
+                    <td>The visibility Property</td>
+                    <td>The CSS visibility property is used to render hidden objects invisible to the user, without removing them from the page. This ensures that the page structure and organization remain unchanged.</td>
+                    <td><img class="imageContainer" src="./src/visibility.png"></td>
+                </tr>
+                <tr>
+                    <td>The property box-sizing of CSS box model</td>
+                    <td><p>
+                        The CSS box model is a box that wraps around an HTML element and controls the design and layout. The property box-sizing controls which aspect of the box is determined by the height and width properties. The default value of this property is content-box, which renders the actual size of the element including the content box; but not the paddings and borders. The value border-box, on the other hand, renders the actual size of an element including the content box, paddings, and borders.
+                    </p>
+                        <p>The default value of the box-sizing property is content-box. The value border-box is recommended when it is necessary to resize the padding and border but not just the content. For instance, the value border-box calculates an element’s height as follows: height = content height + padding + border.</p>
+                    </td>
+                    <td><img class="imageContainer" src="./src/box-sizing.png"></td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </section>
+</body>
+</html>
